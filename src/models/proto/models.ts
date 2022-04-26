@@ -31,6 +31,10 @@ export interface ProtoCallContractAttachment {
   args: Uint8Array[];
 }
 
+export interface ProtoTerminateContractAttachment {
+  args: Uint8Array[];
+}
+
 function createBaseProtoTransaction(): ProtoTransaction {
   return { data: undefined, signature: new Uint8Array(), useRlp: false };
 }
@@ -77,32 +81,6 @@ export const ProtoTransaction = {
       }
     }
     return message;
-  },
-
-  fromJSON(object: any): ProtoTransaction {
-    return {
-      data: isSet(object.data)
-        ? ProtoTransaction_Data.fromJSON(object.data)
-        : undefined,
-      signature: isSet(object.signature)
-        ? bytesFromBase64(object.signature)
-        : new Uint8Array(),
-      useRlp: isSet(object.useRlp) ? Boolean(object.useRlp) : false,
-    };
-  },
-
-  toJSON(message: ProtoTransaction): unknown {
-    const obj: any = {};
-    message.data !== undefined &&
-      (obj.data = message.data
-        ? ProtoTransaction_Data.toJSON(message.data)
-        : undefined);
-    message.signature !== undefined &&
-      (obj.signature = base64FromBytes(
-        message.signature !== undefined ? message.signature : new Uint8Array(),
-      ));
-    message.useRlp !== undefined && (obj.useRlp = message.useRlp);
-    return obj;
   },
 
   fromPartial<I extends Exact<DeepPartial<ProtoTransaction>, I>>(
@@ -206,55 +184,6 @@ export const ProtoTransaction_Data = {
     return message;
   },
 
-  fromJSON(object: any): ProtoTransaction_Data {
-    return {
-      nonce: isSet(object.nonce) ? Number(object.nonce) : 0,
-      epoch: isSet(object.epoch) ? Number(object.epoch) : 0,
-      type: isSet(object.type) ? Number(object.type) : 0,
-      to: isSet(object.to) ? bytesFromBase64(object.to) : new Uint8Array(),
-      amount: isSet(object.amount)
-        ? bytesFromBase64(object.amount)
-        : new Uint8Array(),
-      maxFee: isSet(object.maxFee)
-        ? bytesFromBase64(object.maxFee)
-        : new Uint8Array(),
-      tips: isSet(object.tips)
-        ? bytesFromBase64(object.tips)
-        : new Uint8Array(),
-      payload: isSet(object.payload)
-        ? bytesFromBase64(object.payload)
-        : new Uint8Array(),
-    };
-  },
-
-  toJSON(message: ProtoTransaction_Data): unknown {
-    const obj: any = {};
-    message.nonce !== undefined && (obj.nonce = Math.round(message.nonce));
-    message.epoch !== undefined && (obj.epoch = Math.round(message.epoch));
-    message.type !== undefined && (obj.type = Math.round(message.type));
-    message.to !== undefined &&
-      (obj.to = base64FromBytes(
-        message.to !== undefined ? message.to : new Uint8Array(),
-      ));
-    message.amount !== undefined &&
-      (obj.amount = base64FromBytes(
-        message.amount !== undefined ? message.amount : new Uint8Array(),
-      ));
-    message.maxFee !== undefined &&
-      (obj.maxFee = base64FromBytes(
-        message.maxFee !== undefined ? message.maxFee : new Uint8Array(),
-      ));
-    message.tips !== undefined &&
-      (obj.tips = base64FromBytes(
-        message.tips !== undefined ? message.tips : new Uint8Array(),
-      ));
-    message.payload !== undefined &&
-      (obj.payload = base64FromBytes(
-        message.payload !== undefined ? message.payload : new Uint8Array(),
-      ));
-    return obj;
-  },
-
   fromPartial<I extends Exact<DeepPartial<ProtoTransaction_Data>, I>>(
     object: I,
   ): ProtoTransaction_Data {
@@ -313,33 +242,6 @@ export const ProtoDeployContractAttachment = {
     return message;
   },
 
-  fromJSON(object: any): ProtoDeployContractAttachment {
-    return {
-      CodeHash: isSet(object.CodeHash)
-        ? bytesFromBase64(object.CodeHash)
-        : new Uint8Array(),
-      args: Array.isArray(object?.args)
-        ? object.args.map((e: any) => bytesFromBase64(e))
-        : [],
-    };
-  },
-
-  toJSON(message: ProtoDeployContractAttachment): unknown {
-    const obj: any = {};
-    message.CodeHash !== undefined &&
-      (obj.CodeHash = base64FromBytes(
-        message.CodeHash !== undefined ? message.CodeHash : new Uint8Array(),
-      ));
-    if (message.args) {
-      obj.args = message.args.map((e) =>
-        base64FromBytes(e !== undefined ? e : new Uint8Array()),
-      );
-    } else {
-      obj.args = [];
-    }
-    return obj;
-  },
-
   fromPartial<I extends Exact<DeepPartial<ProtoDeployContractAttachment>, I>>(
     object: I,
   ): ProtoDeployContractAttachment {
@@ -392,28 +294,6 @@ export const ProtoCallContractAttachment = {
     return message;
   },
 
-  fromJSON(object: any): ProtoCallContractAttachment {
-    return {
-      method: isSet(object.method) ? String(object.method) : '',
-      args: Array.isArray(object?.args)
-        ? object.args.map((e: any) => bytesFromBase64(e))
-        : [],
-    };
-  },
-
-  toJSON(message: ProtoCallContractAttachment): unknown {
-    const obj: any = {};
-    message.method !== undefined && (obj.method = message.method);
-    if (message.args) {
-      obj.args = message.args.map((e) =>
-        base64FromBytes(e !== undefined ? e : new Uint8Array()),
-      );
-    } else {
-      obj.args = [];
-    }
-    return obj;
-  },
-
   fromPartial<I extends Exact<DeepPartial<ProtoCallContractAttachment>, I>>(
     object: I,
   ): ProtoCallContractAttachment {
@@ -424,39 +304,50 @@ export const ProtoCallContractAttachment = {
   },
 };
 
-declare var self: any | undefined;
-declare var window: any | undefined;
-declare var global: any | undefined;
-var globalThis: any = (() => {
-  if (typeof globalThis !== 'undefined') return globalThis;
-  if (typeof self !== 'undefined') return self;
-  if (typeof window !== 'undefined') return window;
-  if (typeof global !== 'undefined') return global;
-  throw 'Unable to locate global object';
-})();
-
-const atob: (b64: string) => string =
-  globalThis.atob ||
-  ((b64) => globalThis.Buffer.from(b64, 'base64').toString('binary'));
-function bytesFromBase64(b64: string): Uint8Array {
-  const bin = atob(b64);
-  const arr = new Uint8Array(bin.length);
-  for (let i = 0; i < bin.length; ++i) {
-    arr[i] = bin.charCodeAt(i);
-  }
-  return arr;
+function createBaseProtoTerminateContractAttachment(): ProtoTerminateContractAttachment {
+  return { args: [] };
 }
 
-const btoa: (bin: string) => string =
-  globalThis.btoa ||
-  ((bin) => globalThis.Buffer.from(bin, 'binary').toString('base64'));
-function base64FromBytes(arr: Uint8Array): string {
-  const bin: string[] = [];
-  arr.forEach((byte) => {
-    bin.push(String.fromCharCode(byte));
-  });
-  return btoa(bin.join(''));
-}
+export const ProtoTerminateContractAttachment = {
+  encode(
+    message: ProtoTerminateContractAttachment,
+    writer: _m0.Writer = _m0.Writer.create(),
+  ): _m0.Writer {
+    for (const v of message.args) {
+      writer.uint32(10).bytes(v!);
+    }
+    return writer;
+  },
+
+  decode(
+    input: _m0.Reader | Uint8Array,
+    length?: number,
+  ): ProtoTerminateContractAttachment {
+    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    let end = length === undefined ? reader.len : reader.pos + length;
+    const message = createBaseProtoTerminateContractAttachment();
+    while (reader.pos < end) {
+      const tag = reader.uint32();
+      switch (tag >>> 3) {
+        case 1:
+          message.args.push(reader.bytes());
+          break;
+        default:
+          reader.skipType(tag & 7);
+          break;
+      }
+    }
+    return message;
+  },
+
+  fromPartial<
+    I extends Exact<DeepPartial<ProtoTerminateContractAttachment>, I>,
+  >(object: I): ProtoTerminateContractAttachment {
+    const message = createBaseProtoTerminateContractAttachment();
+    message.args = object.args?.map((e) => e) || [];
+    return message;
+  },
+};
 
 type Builtin =
   | Date
@@ -488,8 +379,4 @@ export type Exact<P, I extends P> = P extends Builtin
 if (_m0.util.Long !== Long) {
   _m0.util.Long = Long as any;
   _m0.configure();
-}
-
-function isSet(value: any): boolean {
-  return value !== null && value !== undefined;
 }

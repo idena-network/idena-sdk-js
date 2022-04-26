@@ -1,0 +1,1 @@
+{"version":3,"file":"terminateContractAttachment.d.ts","sourceRoot":"","sources":["../../../../../src/models/transactions/attachments/contracts/terminateContractAttachment.ts"],"names":[],"mappings":"AAEA,qBAAa,2BAA2B;IACtC,OAAO,CAAC,KAAK,CAAe;gBAEhB,IAAI,EAAE,UAAU,EAAE;IAIvB,SAAS,CAAC,KAAK,EAAE,UAAU;IAM3B,OAAO;CAMf"}

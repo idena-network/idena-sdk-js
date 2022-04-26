@@ -66,6 +66,7 @@
   "homepage": "https://github.com/idena-network/idena-sdk-js#readme",
   "dependencies": {
     "bn.js": "^5.2.0",
+    "decimal.js": "^10.3.1",
     "js-sha3": "^0.8.0",
     "secp256k1": "^4.0.3"
   }

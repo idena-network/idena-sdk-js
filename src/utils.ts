@@ -1,3 +1,5 @@
+export const DNA_BASE = '1000000000000000000';
+
 function isHexPrefixed(str: string): boolean {
   return str.slice(0, 2) === '0x';
 }

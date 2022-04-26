@@ -1,6 +1,6 @@
 # idena-sdk-js
 
-[![Build Status](https://travis-ci.org/ridenaio/idena-network/idena-sdk-js.svg?branch=master)](https://travis-ci.org/ridenaio/idena-network/idena-sdk-js)
+![Build status](https://github.com/idena-network/idena-sdk-js/actions/workflows/ci/badge.svg)
 [![License](https://badgen.net/github/license/ridenaio/idena-network/idena-sdk-js)](./LICENSE)
 [![Library minified size](https://badgen.net/bundlephobia/min/idena-sdk-js)](https://bundlephobia.com/result?p=idena-sdk-js)
 [![Library minified + gzipped size](https://badgen.net/bundlephobia/minzip/idena-sdk-js)](https://bundlephobia.com/result?p=idena-sdk-js)

@@ -1,1 +1,2 @@
-export * from './transaction';
+export * from './transactions/attachments/contracts';
+export * from './transactions/transaction';

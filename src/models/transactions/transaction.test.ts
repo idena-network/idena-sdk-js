@@ -1,6 +1,6 @@
 import { BN } from 'bn.js';
-import { TransactionType } from '.';
-import { hexToUint8Array } from '../utils';
+import { TransactionType } from '..';
+import { hexToUint8Array } from '../..';
 import { Transaction } from './transaction';
 
 describe('transaction', () => {

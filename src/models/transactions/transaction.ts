@@ -1,8 +1,8 @@
-import { ProtoTransaction, ProtoTransaction_Data } from './proto/models';
+import { ProtoTransaction, ProtoTransaction_Data } from '../proto/models';
 import BN from 'bn.js';
-import { hexToUint8Array, toHexString } from '../utils';
+import { hexToUint8Array, toHexString } from '../../utils';
 import sha3 from 'js-sha3';
-import { sender, sign } from '../crypto';
+import { sender, sign } from '../../crypto';
 
 export enum TransactionType {
   SendTx = 0x0,
@@ -41,7 +41,18 @@ export class Transaction {
 
   private _signature: Uint8Array | null = null;
 
-  constructor(init?: Partial<Transaction>) {
+  constructor(
+    init?: Partial<{
+      nonce: number;
+      epoch: number;
+      type: number;
+      to: Uint8Array | string;
+      amount: Uint8Array | string | number | BN;
+      maxFee: Uint8Array | string | number | BN;
+      tips: Uint8Array | string | number | BN;
+      payload: Uint8Array;
+    }>,
+  ) {
     this.nonce = init?.nonce ?? 0;
     this.epoch = init?.epoch ?? 0;
     this.type = init?.type ?? 0;
@@ -176,9 +187,9 @@ export class Transaction {
       nonce: this._nonce,
       type: this._type,
       to: this._to ?? new Uint8Array(),
-      amount: this._amount?.toBuffer() ?? new Uint8Array(),
-      maxFee: this._maxFee?.toBuffer() ?? new Uint8Array(),
-      tips: this._tips?.toBuffer() ?? new Uint8Array(),
+      amount: new Uint8Array(this._amount?.toArray() ?? []),
+      maxFee: new Uint8Array(this._maxFee?.toArray() ?? []),
+      tips: new Uint8Array(this._tips?.toArray() ?? []),
       payload: this._payload ?? new Uint8Array(),
     });
   }

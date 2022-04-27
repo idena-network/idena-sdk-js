@@ -45,7 +45,7 @@ export class Transaction {
     init?: Partial<{
       nonce: number;
       epoch: number;
-      type: number;
+      type: TransactionType;
       to: Uint8Array | string;
       amount: Uint8Array | string | number | BN;
       maxFee: Uint8Array | string | number | BN;
@@ -179,6 +179,10 @@ export class Transaction {
     ).finish();
     this._signature = sign(data, key);
     return this;
+  }
+
+  public toHex(withPrefix = true): string {
+    return toHexString(this.toBytes(), withPrefix);
   }
 
   private _createProtoTxData(): ProtoTransaction_Data {

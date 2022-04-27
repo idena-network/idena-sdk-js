@@ -23,13 +23,13 @@ describe('deploy contract attachment', () => {
       },
     ];
 
-    attachment.setParsedArgs(args);
+    attachment.setArgs(args);
 
     const bytes = attachment.toBytes();
 
     const attachment2 = new DeployContractAttachment().fromBytes(bytes);
 
-    const parsedArgs = attachment2.getParsedArgs([
+    const parsedArgs = attachment2.getArgs([
       ContractArgumentFormat.Bigint,
       ContractArgumentFormat.Uint64,
       ContractArgumentFormat.Byte,
@@ -68,13 +68,13 @@ describe('call contract attachment', () => {
       { index: 3, format: ContractArgumentFormat.Hex, value: 'aabbcc' },
     ];
 
-    attachment.setParsedArgs(args);
+    attachment.setArgs(args);
 
     const bytes = attachment.toBytes();
 
     const attachment2 = new CallContractAttachment().fromBytes(bytes);
 
-    const parsedArgs = attachment2.getParsedArgs([
+    const parsedArgs = attachment2.getArgs([
       ContractArgumentFormat.Dna,
       ContractArgumentFormat.Byte,
       ContractArgumentFormat.Byte,
@@ -107,13 +107,13 @@ describe('call contract attachment', () => {
       { index: 3, format: ContractArgumentFormat.Dna, value: '123.987' },
     ];
 
-    attachment.setParsedArgs(args);
+    attachment.setArgs(args);
 
     const bytes = attachment.toBytes();
 
     const attachment2 = new TerminateContractAttachment().fromBytes(bytes);
 
-    const parsedArgs = attachment2.getParsedArgs([
+    const parsedArgs = attachment2.getArgs([
       ContractArgumentFormat.Uint64,
       ContractArgumentFormat.Byte,
       ContractArgumentFormat.String,

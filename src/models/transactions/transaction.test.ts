@@ -1,6 +1,10 @@
 import { BN } from 'bn.js';
 import { TransactionType } from '..';
 import { hexToUint8Array } from '../..';
+import {
+  CallContractAttachment,
+  ContractArgumentFormat,
+} from './attachments/contracts';
 import { Transaction } from './transaction';
 
 describe('transaction', () => {
@@ -45,5 +49,20 @@ describe('transaction', () => {
 
     expect(tx.signature).toStrictEqual(hexToUint8Array(nodeSignature));
     expect(tx.sender).toBe(__ADDRESS__);
+
+    const transaction = new Transaction({
+      type: TransactionType.CallContractTx,
+      payload: new CallContractAttachment({ method: 'callTest' })
+        .setArgs([
+          {
+            format: ContractArgumentFormat.Hex,
+            index: 0,
+            value: 'aabb',
+          },
+        ])
+        .toBytes(),
+    });
+
+    console.log(transaction.toHex());
   });
 });

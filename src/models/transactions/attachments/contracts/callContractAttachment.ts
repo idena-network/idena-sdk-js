@@ -27,12 +27,13 @@ export class CallContractAttachment {
     return this._args;
   }
 
-  public getParsedArgs(formats: ContractArgumentFormat[]): ContractArgument[] {
+  public getArgs(formats: ContractArgumentFormat[]): ContractArgument[] {
     return argumentsFromBytes(formats, this._args);
   }
 
-  public setParsedArgs(args: ContractArgument[]) {
+  public setArgs(args: ContractArgument[]) {
     this._args = argumentsToBytes(args);
+    return this;
   }
 
   public fromBytes(bytes: Uint8Array) {

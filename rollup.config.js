@@ -35,7 +35,14 @@ function createOutputOptions(options) {
  */
 const options = {
   input: './src/index.ts',
-  external: ['js-sha3', 'bn.js', 'secp256k1', 'protobufjs/minimal', 'long'],
+  external: [
+    'js-sha3',
+    'bn.js',
+    'secp256k1',
+    'protobufjs/minimal',
+    'long',
+    'axios',
+  ],
   output: [
     createOutputOptions({
       file: './dist/index.js',

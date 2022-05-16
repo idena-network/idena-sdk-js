@@ -50,7 +50,7 @@ export class Transaction {
       amount: Uint8Array | string | number | BN;
       maxFee: Uint8Array | string | number | BN;
       tips: Uint8Array | string | number | BN;
-      payload: Uint8Array;
+      payload: Uint8Array | number[];
     }>,
   ) {
     this.nonce = init?.nonce ?? 0;
@@ -60,7 +60,7 @@ export class Transaction {
     this.amount = init?.amount ?? null;
     this.maxFee = init?.maxFee ?? null;
     this.tips = init?.tips ?? null;
-    this.payload = init?.payload ?? null;
+    this.payload = init?.payload ? new Uint8Array(init.payload) : null;
   }
 
   public set nonce(nonce: number) {
@@ -94,7 +94,7 @@ export class Transaction {
   }
 
   public get to(): string | null {
-    return this._to ? toHexString(this._to) : null;
+    return this._to ? toHexString(this._to, true) : null;
   }
 
   public set amount(amount: number | string | BN | Uint8Array | null) {
@@ -147,6 +147,10 @@ export class Transaction {
     return sender(data, this._signature, true);
   }
 
+  public fromHex(hex: string): Transaction {
+    return this.fromBytes(hexToUint8Array(hex));
+  }
+
   public fromBytes(bytes: Uint8Array): Transaction {
     const protoTx = ProtoTransaction.decode(bytes);
     const protoTxData = protoTx.data;
@@ -161,6 +165,8 @@ export class Transaction {
       this.tips = protoTxData.tips;
       this.payload = protoTxData.payload;
     }
+
+    this._signature = protoTx.signature;
 
     return this;
   }

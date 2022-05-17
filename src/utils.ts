@@ -1,3 +1,8 @@
+import { BN } from 'bn.js';
+import Decimal from 'decimal.js';
+
+Decimal.set({ toExpPos: 10000 });
+
 export const DNA_BASE = '1000000000000000000';
 
 function isHexPrefixed(str: string): boolean {
@@ -34,4 +39,9 @@ export function toHexString(
       return `0${(byte & 0xff).toString(16)}`.slice(-2);
     }).join('')
   );
+}
+
+export function decimalToBN(value: string) {
+  const decimalValue = new Decimal(value).mul(new Decimal(DNA_BASE)).toString();
+  return new BN(decimalValue);
 }

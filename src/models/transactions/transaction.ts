@@ -1,8 +1,9 @@
 import { ProtoTransaction, ProtoTransaction_Data } from '../proto/models';
 import BN from 'bn.js';
-import { hexToUint8Array, toHexString } from '../../utils';
+import { decimalToBN, hexToUint8Array, toHexString } from '../../utils';
 import sha3 from 'js-sha3';
 import { sender, sign } from '../../crypto';
+import type { JsonTransaction } from '../json';
 
 export enum TransactionType {
   SendTx = 0x0,
@@ -167,6 +168,29 @@ export class Transaction {
     }
 
     this._signature = protoTx.signature;
+
+    return this;
+  }
+
+  public fromJson(jsonTx: JsonTransaction): Transaction {
+    function getTxType(type: string): TransactionType {
+      if (!type?.length) return TransactionType.SendTx;
+      const stringType = type[0]?.toUpperCase() + type.slice(1) + 'Tx';
+      return <TransactionType>(
+        (Object.entries(TransactionType).find(
+          ([key]) => key === stringType,
+        )?.[1] || TransactionType.SendTx)
+      );
+    }
+
+    this.nonce = jsonTx.nonce;
+    this.epoch = jsonTx.epoch;
+    this.type = getTxType(jsonTx.type);
+    this.to = jsonTx.to;
+    this.amount = decimalToBN(jsonTx.amount);
+    this.maxFee = decimalToBN(jsonTx.maxFee);
+    this.tips = decimalToBN(jsonTx.tips);
+    this.payload = hexToUint8Array(jsonTx.payload);
 
     return this;
   }

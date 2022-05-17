@@ -1,6 +1,6 @@
 import BN from 'bn.js';
 import Decimal from 'decimal.js';
-import { DNA_BASE, hexToUint8Array, toHexString } from '../../../..';
+import { DNA_BASE, hexToUint8Array, toHexString } from '../../../../utils';
 import { ContractArgument, ContractArgumentFormat } from './types';
 
 Decimal.set({ toExpPos: 10000 });

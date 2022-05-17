@@ -38,6 +38,7 @@ const options = {
   external: [
     'js-sha3',
     'bn.js',
+    'decimal.js',
     'secp256k1',
     'protobufjs/minimal',
     'long',

@@ -1,4 +1,5 @@
 import BN from 'bn.js';
+import type { JsonTransaction } from '../json';
 export declare enum TransactionType {
     SendTx = 0,
     ActivationTx = 1,
@@ -33,7 +34,16 @@ export declare class Transaction {
     private _tips;
     private _payload;
     private _signature;
-    constructor(init?: Partial<Transaction>);
+    constructor(init?: Partial<{
+        nonce: number;
+        epoch: number;
+        type: TransactionType;
+        to: Uint8Array | string;
+        amount: Uint8Array | string | number | BN;
+        maxFee: Uint8Array | string | number | BN;
+        tips: Uint8Array | string | number | BN;
+        payload: Uint8Array | number[];
+    }>);
     set nonce(nonce: number);
     get nonce(): number;
     set epoch(epoch: number);
@@ -53,9 +63,12 @@ export declare class Transaction {
     get signature(): Uint8Array | null;
     get hash(): string;
     get sender(): string | null;
+    fromHex(hex: string): Transaction;
     fromBytes(bytes: Uint8Array): Transaction;
+    fromJson(jsonTx: JsonTransaction): Transaction;
     toBytes(): Uint8Array;
     sign(key: string | Uint8Array | number[]): Transaction;
+    toHex(withPrefix?: boolean): string;
     private _createProtoTxData;
 }
 //# sourceMappingURL=transaction.d.ts.map

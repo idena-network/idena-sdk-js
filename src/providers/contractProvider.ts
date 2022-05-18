@@ -31,7 +31,6 @@ export class ContractProvider extends BaseProvider {
     format: ContractArgumentFormat,
     args: ContractArgument[],
   ): Promise<string> {
-    console.log('args', args);
     const result = await this.doRequest({
       method: 'contract_readonlyCall',
       params: [{ contract: address, method, format, args }],

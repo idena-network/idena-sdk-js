@@ -1,6 +1,6 @@
 import { ProtoTransaction, ProtoTransaction_Data } from '../proto/models';
 import BN from 'bn.js';
-import { decimalToBN, hexToUint8Array, toHexString } from '../../utils';
+import { floatToDna, hexToUint8Array, toHexString } from '../../utils';
 import sha3 from 'js-sha3';
 import { sender, sign } from '../../crypto';
 import type { JsonTransaction } from '../json';
@@ -187,9 +187,9 @@ export class Transaction {
     this.epoch = jsonTx.epoch;
     this.type = getTxType(jsonTx.type);
     this.to = jsonTx.to;
-    this.amount = decimalToBN(jsonTx.amount);
-    this.maxFee = decimalToBN(jsonTx.maxFee);
-    this.tips = decimalToBN(jsonTx.tips);
+    this.amount = floatToDna(jsonTx.amount);
+    this.maxFee = floatToDna(jsonTx.maxFee);
+    this.tips = floatToDna(jsonTx.tips);
     this.payload = hexToUint8Array(jsonTx.payload);
 
     return this;

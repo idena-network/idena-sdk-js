@@ -1,6 +1,11 @@
 import BN from 'bn.js';
 import Decimal from 'decimal.js';
-import { DNA_BASE, hexToUint8Array, toHexString } from '../../../../utils';
+import {
+  dnaToFloat,
+  floatToDna,
+  hexToUint8Array,
+  toHexString,
+} from '../../../../utils';
 import { ContractArgument, ContractArgumentFormat } from './types';
 
 Decimal.set({ toExpPos: 10000 });
@@ -73,13 +78,10 @@ export function argumentFromBytes(
     }
     case 'dna': {
       const bn = new BN(bytes);
-      const value = new Decimal(bn.toString(10))
-        .div(new Decimal(DNA_BASE))
-        .toString();
       return {
         format: ContractArgumentFormat.Dna,
         index: index,
-        value: value,
+        value: dnaToFloat(bn),
       };
     }
     default: {
@@ -140,10 +142,7 @@ export function argumentToBytes(data: ContractArgument): Uint8Array {
         return new Uint8Array([...hexToUint8Array(data.value)]);
       }
       case 'dna': {
-        const value = new Decimal(data.value)
-          .mul(new Decimal(DNA_BASE))
-          .toString();
-        return new Uint8Array(new BN(value).toArray());
+        return new Uint8Array(floatToDna(data.value).toArray());
       }
       default: {
         return new Uint8Array([...hexToUint8Array(data.value)]);

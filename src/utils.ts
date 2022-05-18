@@ -1,4 +1,4 @@
-import { BN } from 'bn.js';
+import BN from 'bn.js';
 import Decimal from 'decimal.js';
 
 Decimal.set({ toExpPos: 10000 });
@@ -41,7 +41,12 @@ export function toHexString(
   );
 }
 
-export function decimalToBN(value: string) {
+export function floatToDna(value: string) {
   const decimalValue = new Decimal(value).mul(new Decimal(DNA_BASE)).toString();
   return new BN(decimalValue);
+}
+
+export function dnaToFloat(value: BN | string) {
+  const bn = new BN(value);
+  return new Decimal(bn.toString(10)).div(new Decimal(DNA_BASE)).toString();
 }

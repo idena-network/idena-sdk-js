@@ -31,3 +31,85 @@ export class JsonTransaction {
     public timestamp: number,
   ) {}
 }
+
+export class JsonReceipt {
+  constructor(
+    public contract: string,
+    public method: string,
+    public success: boolean,
+    public gasUsed: number,
+    public txHash: string,
+    public error: string,
+    public gasCost: string,
+    public txFee: number,
+  ) {}
+}
+
+export class JsonBalance {
+  constructor(
+    public stake: string,
+    public balance: string,
+    public nonce: number,
+    public mempoolNonce: number,
+  ) {}
+}
+
+class JsonFlipWords {
+  constructor(
+    public words: number[],
+    public used: boolean,
+    public id: number,
+  ) {}
+}
+
+class JsonTxAddr {
+  constructor(public TxHash: string, public Address: string) {}
+}
+
+class JsonInviter {
+  constructor(
+    public txHash: string,
+    public address: string,
+    public epochHeight: number,
+  ) {}
+}
+
+export class JsonIdentity {
+  constructor(
+    public address: string,
+    public profileHash: string,
+    public stake: string,
+    public invites: number,
+    public age: number,
+    public state: string,
+    public pubkey: string,
+    public requiredFlips: number,
+    public availableFlips: number,
+    public flipKeyWordPairs: JsonFlipWords[],
+    public madeFlips: number,
+    public totalQualifiedFlips: number,
+    public totalShortFlipPoints: number,
+    public flips: string[],
+    public online: boolean,
+    public generation: number,
+    public code: string,
+    public invitees: JsonTxAddr[],
+    public penalty: string,
+    public lastValidationFlags: string[],
+    public delegatee: string,
+    public delegationEpoch: number,
+    public delegationNonce: number,
+    public isPool: boolean,
+    public inviter: JsonInviter,
+    public shardId: number,
+  ) {}
+}
+
+export class JsonEpoch {
+  constructor(
+    public startBlock: number,
+    public epoch: number,
+    public nextValidation: string,
+    public currentPeriod: string,
+  ) {}
+}

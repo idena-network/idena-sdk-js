@@ -20,6 +20,7 @@
     ]
   },
   "devDependencies": {
+    "@rollup/plugin-replace": "^4.0.0",
     "@types/bn.js": "^5.1.0",
     "@types/eslint": "^8.4.1",
     "@types/jest": "^27.4.1",

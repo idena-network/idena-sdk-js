@@ -1,4 +1,4 @@
-import type { ContractArgument, ContractArgumentFormat } from '../models';
+import type { ContractArgument, ContractArgumentFormat, JsonIterateMap } from '../models';
 import type { AxiosInstance } from 'axios';
 import { BaseProvider } from './provider';
 export declare class ContractProvider extends BaseProvider {
@@ -7,6 +7,6 @@ export declare class ContractProvider extends BaseProvider {
     readData(address: string, key: string, format: ContractArgumentFormat): Promise<string>;
     readonlyCall(address: string, method: string, format: ContractArgumentFormat, args: ContractArgument[]): Promise<string>;
     readMap(address: string, mapName: string, key: string, format: ContractArgumentFormat): Promise<string>;
-    iterateMap(address: string, mapName: string, keyFormat: ContractArgumentFormat, valueFormat: ContractArgumentFormat, limit?: number, continuationToken?: string): Promise<string>;
+    iterateMap(address: string, mapName: string, keyFormat: ContractArgumentFormat, valueFormat: ContractArgumentFormat, limit?: number, continuationToken?: string): Promise<JsonIterateMap>;
 }
 //# sourceMappingURL=contractProvider.d.ts.map

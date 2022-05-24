@@ -113,3 +113,13 @@ export class JsonEpoch {
     public currentPeriod: string,
   ) {}
 }
+
+export class JsonIterateMapItem {
+  constructor(public key: string, public value: string) {}
+}
+export class JsonIterateMap {
+  constructor(
+    public items: JsonIterateMapItem[],
+    public continuationToken: string,
+  ) {}
+}

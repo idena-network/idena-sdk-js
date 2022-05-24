@@ -1,4 +1,8 @@
-import type { ContractArgument, ContractArgumentFormat } from '../models';
+import type {
+  ContractArgument,
+  ContractArgumentFormat,
+  JsonIterateMap,
+} from '../models';
 import type { AxiosInstance } from 'axios';
 import { createAxiosInstance } from './utils';
 import { BaseProvider } from './provider';
@@ -60,7 +64,7 @@ export class ContractProvider extends BaseProvider {
     valueFormat: ContractArgumentFormat,
     limit = 10,
     continuationToken = '0x',
-  ): Promise<string> {
+  ): Promise<JsonIterateMap> {
     const result = await this.doRequest({
       method: 'contract_iterateMap',
       params: [

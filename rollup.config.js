@@ -2,6 +2,7 @@
 
 import { terser } from 'rollup-plugin-terser';
 import typescript2 from 'rollup-plugin-typescript2';
+import replace from '@rollup/plugin-replace';
 
 import pkg from './package.json';
 
@@ -40,7 +41,7 @@ const options = {
     'bn.js',
     'decimal.js',
     'secp256k1',
-    'protobufjs/minimal',
+    'protobufjs/minimal.js',
     'long',
     'axios',
   ],
@@ -76,6 +77,9 @@ const options = {
       clean: true,
       useTsconfigDeclarationDir: true,
       tsconfig: './tsconfig.bundle.json',
+    }),
+    replace({
+      'protobufjs/minimal': 'protobufjs/minimal.js',
     }),
   ],
 };

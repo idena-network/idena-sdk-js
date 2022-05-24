@@ -28,7 +28,7 @@ export class BcnProvider extends BaseProvider {
     }>,
   ): Promise<Transaction> {
     const params: any = data;
-    if (data.payload) params.payload = toHexString(data.payload, true);
+    if (data.payload) params.payload = toHexString(data.payload);
     params.useProto = true;
 
     const result = await this.doRequest({

@@ -65,7 +65,7 @@ describe('call contract attachment', () => {
     const args = [
       { index: 0, format: ContractArgumentFormat.Dna, value: '10' },
       { index: 1, format: ContractArgumentFormat.Byte, value: 250 },
-      { index: 3, format: ContractArgumentFormat.Hex, value: 'aabbcc' },
+      { index: 3, format: ContractArgumentFormat.Hex, value: '0xaabbcc' },
     ];
 
     attachment.setArgs(args);
@@ -92,7 +92,7 @@ describe('call contract attachment', () => {
     expect(parsedArgs[2]?.value).toBe(null);
     expect(parsedArgs[2]?.index).toBe(2);
 
-    expect(parsedArgs[3]?.value).toBe('aabbcc');
+    expect(parsedArgs[3]?.value).toBe('0xaabbcc');
     expect(parsedArgs[3]?.index).toBe(3);
   });
 });

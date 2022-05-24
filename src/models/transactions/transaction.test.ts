@@ -46,4 +46,33 @@ describe('transaction', () => {
     expect(tx.signature).toStrictEqual(hexToUint8Array(nodeSignature));
     expect(tx.sender).toBe(__ADDRESS__);
   });
+
+  it('signature test 2', () => {
+    const tx = new Transaction({
+      epoch: 55,
+      nonce: 10,
+      amount: new BN(500),
+      payload: new Uint8Array([1, 2, 3]),
+    }).sign(__PRIVATE_KEY__);
+
+    const nodeSignature =
+      'e59ab446590f84c2b4e23176dbb1558c755db477739485392a0384c4468494106a581f632ee7ac3e6405b5e677e1c8e52d4c6ede0337af1000d714d1681fe74d00';
+
+    expect(tx.signature).toStrictEqual(hexToUint8Array(nodeSignature));
+    expect(tx.sender).toBe(__ADDRESS__);
+  });
+
+  it('signature test 3', () => {
+    const tx = new Transaction().fromHex(
+      '0a290801100c180f2a09056bc75e2d6310000032082676179a205d70a03a010042090a0105120101120101',
+    );
+
+    tx.sign(__PRIVATE_KEY__);
+
+    const nodeSignature =
+      'dc824b4647dc6c254b75368bd51f943c5f6ab164a40c6ba1d60251314e705bdc245d26164cad78f7d2ecb5d96fd9409f72bd45e15515d9f312696d47b2847e3e01';
+
+    expect(tx.signature).toStrictEqual(hexToUint8Array(nodeSignature));
+    expect(tx.sender).toBe(__ADDRESS__);
+  });
 });

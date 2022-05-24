@@ -31,7 +31,7 @@ export function hexToUint8Array(hexString: string): Uint8Array {
 
 export function toHexString(
   byteArray: Uint8Array | number[],
-  withPrefix = false,
+  withPrefix = true,
 ) {
   return (
     (withPrefix ? '0x' : '') +
@@ -41,12 +41,12 @@ export function toHexString(
   );
 }
 
-export function floatToDna(value: string) {
+export function floatStringToDna(value: string) {
   const decimalValue = new Decimal(value).mul(new Decimal(DNA_BASE)).toString();
   return new BN(decimalValue);
 }
 
-export function dnaToFloat(value: BN | string) {
+export function dnaToFloatString(value: BN | string) {
   const bn = new BN(value);
   return new Decimal(bn.toString(10)).div(new Decimal(DNA_BASE)).toString();
 }

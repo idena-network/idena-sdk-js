@@ -1,6 +1,6 @@
 import { ProtoTransaction, ProtoTransaction_Data } from '../proto/models';
 import BN from 'bn.js';
-import { floatToDna, hexToUint8Array, toHexString } from '../../utils';
+import { floatStringToDna, hexToUint8Array, toHexString } from '../../utils';
 import sha3 from 'js-sha3';
 import { sender, sign } from '../../crypto';
 import type { JsonTransaction } from '../json';
@@ -148,6 +148,14 @@ export class Transaction {
     return sender(data, this._signature, true);
   }
 
+  static fromHex(hex: string): Transaction {
+    return new Transaction().fromHex(hex);
+  }
+
+  static fromBytes(bytes: Uint8Array): Transaction {
+    return new Transaction().fromBytes(bytes);
+  }
+
   public fromHex(hex: string): Transaction {
     return this.fromBytes(hexToUint8Array(hex));
   }
@@ -187,9 +195,9 @@ export class Transaction {
     this.epoch = jsonTx.epoch;
     this.type = getTxType(jsonTx.type);
     this.to = jsonTx.to;
-    this.amount = floatToDna(jsonTx.amount);
-    this.maxFee = floatToDna(jsonTx.maxFee);
-    this.tips = floatToDna(jsonTx.tips);
+    this.amount = floatStringToDna(jsonTx.amount);
+    this.maxFee = floatStringToDna(jsonTx.maxFee);
+    this.tips = floatStringToDna(jsonTx.tips);
     this.payload = hexToUint8Array(jsonTx.payload);
 
     return this;
@@ -221,9 +229,15 @@ export class Transaction {
       nonce: this._nonce,
       type: this._type,
       to: this._to ?? new Uint8Array(),
-      amount: new Uint8Array(this._amount?.toArray() ?? []),
-      maxFee: new Uint8Array(this._maxFee?.toArray() ?? []),
-      tips: new Uint8Array(this._tips?.toArray() ?? []),
+      amount: new Uint8Array(
+        !this._amount || this._amount.isZero() ? [] : this._amount.toArray(),
+      ),
+      maxFee: new Uint8Array(
+        !this._maxFee || this._maxFee.isZero() ? [] : this._maxFee.toArray(),
+      ),
+      tips: new Uint8Array(
+        !this._tips || this._tips.isZero() ? [] : this._tips.toArray(),
+      ),
       payload: this._payload ?? new Uint8Array(),
     });
   }

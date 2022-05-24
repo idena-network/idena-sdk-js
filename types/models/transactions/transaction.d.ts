@@ -63,6 +63,8 @@ export declare class Transaction {
     get signature(): Uint8Array | null;
     get hash(): string;
     get sender(): string | null;
+    static fromHex(hex: string): Transaction;
+    static fromBytes(bytes: Uint8Array): Transaction;
     fromHex(hex: string): Transaction;
     fromBytes(bytes: Uint8Array): Transaction;
     fromJson(jsonTx: JsonTransaction): Transaction;

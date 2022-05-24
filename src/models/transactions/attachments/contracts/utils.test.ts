@@ -316,7 +316,7 @@ describe('convert bytes to args', () => {
   });
 
   it('bytes to hex', () => {
-    const value = 'aabbcc001122';
+    const value = '0xaabbcc001122';
     expect(
       argumentFromBytes(
         ContractArgumentFormat.Hex,

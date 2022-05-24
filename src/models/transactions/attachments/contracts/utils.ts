@@ -1,8 +1,8 @@
 import BN from 'bn.js';
 import Decimal from 'decimal.js';
 import {
-  dnaToFloat,
-  floatToDna,
+  dnaToFloatString,
+  floatStringToDna,
   hexToUint8Array,
   toHexString,
 } from '../../../../utils';
@@ -81,7 +81,7 @@ export function argumentFromBytes(
       return {
         format: ContractArgumentFormat.Dna,
         index: index,
-        value: dnaToFloat(bn),
+        value: dnaToFloatString(bn),
       };
     }
     default: {
@@ -142,7 +142,7 @@ export function argumentToBytes(data: ContractArgument): Uint8Array {
         return new Uint8Array([...hexToUint8Array(data.value)]);
       }
       case 'dna': {
-        return new Uint8Array(floatToDna(data.value).toArray());
+        return new Uint8Array(floatStringToDna(data.value).toArray());
       }
       default: {
         return new Uint8Array([...hexToUint8Array(data.value)]);

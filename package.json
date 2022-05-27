@@ -1,6 +1,6 @@
 {
   "name": "idena-sdk-js",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Idena SDK Javascript package",
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",

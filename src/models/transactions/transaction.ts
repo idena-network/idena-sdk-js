@@ -140,19 +140,23 @@ export class Transaction {
   }
 
   get sender() {
-    if (!this._signature) return null;
+    try {
+      if (!this._signature || this._signature.length === 0) return null;
 
-    const data = ProtoTransaction_Data.encode(
-      this._createProtoTxData(),
-    ).finish();
+      const data = ProtoTransaction_Data.encode(
+        this._createProtoTxData(),
+      ).finish();
 
-    return sender(data, this._signature, true);
+      return sender(data, this._signature, true);
+    } catch {
+      return null;
+    }
   }
 
   get gas() {
     const bytes = this.toBytes();
     let size = bytes.length;
-    if (!this._signature) size += 67;
+    if (!this._signature || this._signature.length === 0) size += 67;
     if (this.type === TransactionType.DeleteFlipTx) size += 1024 * 120;
     if (this.type === TransactionType.StoreToIpfsTx) {
       const maxSize = 1024 * 1024;

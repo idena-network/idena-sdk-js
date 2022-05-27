@@ -35,6 +35,11 @@ export interface ProtoTerminateContractAttachment {
   args: Uint8Array[];
 }
 
+export interface ProtoStoreToIpfsAttachment {
+  cid: Uint8Array;
+  size: number;
+}
+
 function createBaseProtoTransaction(): ProtoTransaction {
   return { data: undefined, signature: new Uint8Array(), useRlp: false };
 }
@@ -345,6 +350,58 @@ export const ProtoTerminateContractAttachment = {
   >(object: I): ProtoTerminateContractAttachment {
     const message = createBaseProtoTerminateContractAttachment();
     message.args = object.args?.map((e) => e) || [];
+    return message;
+  },
+};
+
+function createBaseProtoStoreToIpfsAttachment(): ProtoStoreToIpfsAttachment {
+  return { cid: new Uint8Array(), size: 0 };
+}
+
+export const ProtoStoreToIpfsAttachment = {
+  encode(
+    message: ProtoStoreToIpfsAttachment,
+    writer: _m0.Writer = _m0.Writer.create(),
+  ): _m0.Writer {
+    if (message.cid.length !== 0) {
+      writer.uint32(10).bytes(message.cid);
+    }
+    if (message.size !== 0) {
+      writer.uint32(16).uint32(message.size);
+    }
+    return writer;
+  },
+
+  decode(
+    input: _m0.Reader | Uint8Array,
+    length?: number,
+  ): ProtoStoreToIpfsAttachment {
+    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    let end = length === undefined ? reader.len : reader.pos + length;
+    const message = createBaseProtoStoreToIpfsAttachment();
+    while (reader.pos < end) {
+      const tag = reader.uint32();
+      switch (tag >>> 3) {
+        case 1:
+          message.cid = reader.bytes();
+          break;
+        case 2:
+          message.size = reader.uint32();
+          break;
+        default:
+          reader.skipType(tag & 7);
+          break;
+      }
+    }
+    return message;
+  },
+
+  fromPartial<I extends Exact<DeepPartial<ProtoStoreToIpfsAttachment>, I>>(
+    object: I,
+  ): ProtoStoreToIpfsAttachment {
+    const message = createBaseProtoStoreToIpfsAttachment();
+    message.cid = object.cid ?? new Uint8Array();
+    message.size = object.size ?? 0;
     return message;
   },
 };

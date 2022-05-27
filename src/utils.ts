@@ -50,3 +50,8 @@ export function dnaToFloatString(value: BN | string) {
   const bn = new BN(value);
   return new Decimal(bn.toString(10)).div(new Decimal(DNA_BASE)).toString();
 }
+
+export function gasCost(feePerGas: BN | string, gas: number): string {
+  const bn = new BN(feePerGas);
+  return bn.mul(new BN(gas)).toString();
+}

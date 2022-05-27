@@ -1,6 +1,7 @@
 import { BN } from 'bn.js';
 import { TransactionType } from '..';
 import { hexToUint8Array } from '../..';
+import { StoreToIpfsAttachment } from './attachments/storeToIpfsAttachment';
 import { Transaction } from './transaction';
 
 describe('transaction', () => {
@@ -74,5 +75,37 @@ describe('transaction', () => {
 
     expect(tx.signature).toStrictEqual(hexToUint8Array(nodeSignature));
     expect(tx.sender).toBe(__ADDRESS__);
+  });
+
+  it('calculate gas', () => {
+    const tx = new Transaction({
+      nonce: 100,
+      epoch: 50,
+      amount: '100000000',
+      payload: [1, 2, 3, 4, 5],
+    });
+
+    expect(tx.gas).toBe(860);
+
+    const tx2 = new Transaction({
+      nonce: 100,
+      epoch: 50,
+      type: TransactionType.DeleteFlipTx,
+      amount: '100000000',
+      payload: [1, 2, 3, 4, 5],
+    });
+
+    expect(tx2.gas).toBe(1229680);
+
+    const attachment = new StoreToIpfsAttachment({ size: 987 });
+
+    const tx3 = new Transaction({
+      nonce: 1,
+      epoch: 1,
+      type: TransactionType.StoreToIpfsTx,
+      payload: attachment.toBytes(),
+    });
+
+    expect(tx3.gas).toBe(2770);
   });
 });

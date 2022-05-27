@@ -4,6 +4,7 @@ import { floatStringToDna, hexToUint8Array, toHexString } from '../../utils';
 import sha3 from 'js-sha3';
 import { sender, sign } from '../../crypto';
 import type { JsonTransaction } from '../json';
+import { StoreToIpfsAttachment } from './attachments/storeToIpfsAttachment';
 
 export enum TransactionType {
   SendTx = 0x0,
@@ -146,6 +147,29 @@ export class Transaction {
     ).finish();
 
     return sender(data, this._signature, true);
+  }
+
+  get gas() {
+    const bytes = this.toBytes();
+    let size = bytes.length;
+    if (!this._signature) size += 67;
+    if (this.type === TransactionType.DeleteFlipTx) size += 1024 * 120;
+    if (this.type === TransactionType.StoreToIpfsTx) {
+      const maxSize = 1024 * 1024;
+      try {
+        if (this.payload) {
+          const attachment = new StoreToIpfsAttachment().fromBytes(
+            this.payload,
+          );
+          size += attachment.size * 0.2 || maxSize;
+        } else {
+          size += maxSize;
+        }
+      } catch (e) {
+        size += maxSize;
+      }
+    }
+    return ~~size * 10;
   }
 
   static fromHex(hex: string): Transaction {

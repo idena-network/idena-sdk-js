@@ -76,7 +76,7 @@
 
 #### Defined in
 
-[models/json/index.ts:78](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/json/index.ts#L78)
+[models/json/index.ts:78](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L78)
 
 ## Properties
 

@@ -50,7 +50,7 @@ BaseProvider.constructor
 
 #### Defined in
 
-[providers/idenaProvider.ts:29](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L29)
+[providers/idenaProvider.ts:29](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L29)
 
 ## Properties
 
@@ -60,7 +60,7 @@ BaseProvider.constructor
 
 #### Defined in
 
-[providers/idenaProvider.ts:9](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L9)
+[providers/idenaProvider.ts:9](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L9)
 
 ___
 
@@ -70,17 +70,17 @@ ___
 
 #### Defined in
 
-[providers/idenaProvider.ts:10](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L10)
+[providers/idenaProvider.ts:10](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L10)
 
 ___
 
 ### \_dnaProvider
 
-• `Private` **\_dnaProvider**: `DnaProvider`
+• `Private` **\_dnaProvider**: [`DnaProvider`](DnaProvider.md)
 
 #### Defined in
 
-[providers/idenaProvider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L11)
+[providers/idenaProvider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L11)
 
 ___
 
@@ -94,7 +94,7 @@ BaseProvider.\_httpProvider
 
 #### Defined in
 
-[providers/provider.ts:5](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/provider.ts#L5)
+[providers/provider.ts:5](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L5)
 
 ## Accessors
 
@@ -108,7 +108,7 @@ BaseProvider.\_httpProvider
 
 #### Defined in
 
-[providers/idenaProvider.ts:13](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L13)
+[providers/idenaProvider.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L13)
 
 ___
 
@@ -122,21 +122,21 @@ ___
 
 #### Defined in
 
-[providers/idenaProvider.ts:17](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L17)
+[providers/idenaProvider.ts:17](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L17)
 
 ___
 
 ### Dna
 
-• `get` **Dna**(): `DnaProvider`
+• `get` **Dna**(): [`DnaProvider`](DnaProvider.md)
 
 #### Returns
 
-`DnaProvider`
+[`DnaProvider`](DnaProvider.md)
 
 #### Defined in
 
-[providers/idenaProvider.ts:21](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L21)
+[providers/idenaProvider.ts:21](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L21)
 
 ## Methods
 
@@ -163,7 +163,7 @@ BaseProvider.doRequest
 
 #### Defined in
 
-[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/provider.ts#L11)
+[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L11)
 
 ___
 
@@ -184,4 +184,4 @@ ___
 
 #### Defined in
 
-[providers/idenaProvider.ts:25](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/idenaProvider.ts#L25)
+[providers/idenaProvider.ts:25](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L25)

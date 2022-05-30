@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[models/json/index.ts:2](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/json/index.ts#L2)
+[models/json/index.ts:2](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L2)
 
 ## Properties
 

@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:9](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L9)
+[models/transactions/attachments/contracts/callContractAttachment.ts:9](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L9)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:7](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L7)
+[models/transactions/attachments/contracts/callContractAttachment.ts:7](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L7)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:6](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L6)
+[models/transactions/attachments/contracts/callContractAttachment.ts:6](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L6)
 
 ## Accessors
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:26](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L26)
+[models/transactions/attachments/contracts/callContractAttachment.ts:26](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L26)
 
 • `set` **args**(`args`): `void`
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:22](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L22)
+[models/transactions/attachments/contracts/callContractAttachment.ts:22](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L22)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:18](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L18)
+[models/transactions/attachments/contracts/callContractAttachment.ts:18](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L18)
 
 • `set` **method**(`method`): `void`
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:14](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L14)
+[models/transactions/attachments/contracts/callContractAttachment.ts:14](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L14)
 
 ## Methods
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:39](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L39)
+[models/transactions/attachments/contracts/callContractAttachment.ts:39](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L39)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:30](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L30)
+[models/transactions/attachments/contracts/callContractAttachment.ts:30](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L30)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:34](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L34)
+[models/transactions/attachments/contracts/callContractAttachment.ts:34](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L34)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/callContractAttachment.ts:48](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L48)
+[models/transactions/attachments/contracts/callContractAttachment.ts:48](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/callContractAttachment.ts#L48)

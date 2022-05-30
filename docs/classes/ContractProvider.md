@@ -45,7 +45,7 @@ BaseProvider.constructor
 
 #### Defined in
 
-[providers/contractProvider.ts:15](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/contractProvider.ts#L15)
+[providers/contractProvider.ts:15](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L15)
 
 ## Properties
 
@@ -59,7 +59,7 @@ BaseProvider.\_httpProvider
 
 #### Defined in
 
-[providers/provider.ts:5](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/provider.ts#L5)
+[providers/provider.ts:5](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L5)
 
 ## Methods
 
@@ -86,7 +86,7 @@ BaseProvider.doRequest
 
 #### Defined in
 
-[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/provider.ts#L11)
+[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L11)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[providers/contractProvider.ts:60](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/contractProvider.ts#L60)
+[providers/contractProvider.ts:60](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L60)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[providers/contractProvider.ts:19](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/contractProvider.ts#L19)
+[providers/contractProvider.ts:19](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L19)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-[providers/contractProvider.ts:46](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/contractProvider.ts#L46)
+[providers/contractProvider.ts:46](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L46)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-[providers/contractProvider.ts:32](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/contractProvider.ts#L32)
+[providers/contractProvider.ts:32](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L32)
 
 ___
 
@@ -200,4 +200,4 @@ ___
 
 #### Defined in
 
-[providers/contractProvider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/contractProvider.ts#L11)
+[providers/contractProvider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L11)

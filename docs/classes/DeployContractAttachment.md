@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:13](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L13)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L13)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L11)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L11)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:10](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L10)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:10](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L10)
 
 ## Accessors
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:32](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L32)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:32](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L32)
 
 • `set` **args**(`args`): `void`
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:28](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L28)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:28](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L28)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:24](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L24)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:24](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L24)
 
 • `set` **codeHash**(`codeHash`): `void`
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:20](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L20)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:20](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L20)
 
 ## Methods
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:44](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L44)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:44](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L44)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:36](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L36)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:36](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L36)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:40](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L40)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:40](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L40)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/deployContractAttachment.ts:53](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L53)
+[models/transactions/attachments/contracts/deployContractAttachment.ts:53](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/deployContractAttachment.ts#L53)

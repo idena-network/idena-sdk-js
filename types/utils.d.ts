@@ -5,4 +5,5 @@ export declare function hexToUint8Array(hexString: string): Uint8Array;
 export declare function toHexString(byteArray: Uint8Array | number[], withPrefix?: boolean): string;
 export declare function floatStringToDna(value: string): BN;
 export declare function dnaToFloatString(value: BN | string): string;
+export declare function calculateGasCost(feePerGas: BN | string, gas: number): string;
 //# sourceMappingURL=utils.d.ts.map

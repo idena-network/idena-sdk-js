@@ -21,8 +21,8 @@
 ### Methods
 
 - [fromBytes](CallContractAttachment.md#frombytes)
-- [getParsedArgs](CallContractAttachment.md#getparsedargs)
-- [setParsedArgs](CallContractAttachment.md#setparsedargs)
+- [getArgs](CallContractAttachment.md#getargs)
+- [setArgs](CallContractAttachment.md#setargs)
 - [toBytes](CallContractAttachment.md#tobytes)
 
 ## Constructors
@@ -39,7 +39,7 @@
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:9
+[models/transactions/attachments/contracts/callContractAttachment.ts:9](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L9)
 
 ## Properties
 
@@ -49,7 +49,7 @@ models/transactions/attachments/contracts/callContractAttachment.ts:9
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:7
+[models/transactions/attachments/contracts/callContractAttachment.ts:7](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L7)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:6
+[models/transactions/attachments/contracts/callContractAttachment.ts:6](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L6)
 
 ## Accessors
 
@@ -73,7 +73,7 @@ models/transactions/attachments/contracts/callContractAttachment.ts:6
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:26
+[models/transactions/attachments/contracts/callContractAttachment.ts:26](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L26)
 
 • `set` **args**(`args`): `void`
 
@@ -89,7 +89,7 @@ models/transactions/attachments/contracts/callContractAttachment.ts:26
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:22
+[models/transactions/attachments/contracts/callContractAttachment.ts:22](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L22)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:18
+[models/transactions/attachments/contracts/callContractAttachment.ts:18](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L18)
 
 • `set` **method**(`method`): `void`
 
@@ -119,7 +119,7 @@ models/transactions/attachments/contracts/callContractAttachment.ts:18
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:14
+[models/transactions/attachments/contracts/callContractAttachment.ts:14](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L14)
 
 ## Methods
 
@@ -139,13 +139,13 @@ models/transactions/attachments/contracts/callContractAttachment.ts:14
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:38
+[models/transactions/attachments/contracts/callContractAttachment.ts:39](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L39)
 
 ___
 
-### getParsedArgs
+### getArgs
 
-▸ **getParsedArgs**(`formats`): [`ContractArgument`](../interfaces/ContractArgument.md)[]
+▸ **getArgs**(`formats`): [`ContractArgument`](../interfaces/ContractArgument.md)[]
 
 #### Parameters
 
@@ -159,13 +159,13 @@ ___
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:30
+[models/transactions/attachments/contracts/callContractAttachment.ts:30](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L30)
 
 ___
 
-### setParsedArgs
+### setArgs
 
-▸ **setParsedArgs**(`args`): `void`
+▸ **setArgs**(`args`): [`CallContractAttachment`](CallContractAttachment.md)
 
 #### Parameters
 
@@ -175,11 +175,11 @@ ___
 
 #### Returns
 
-`void`
+[`CallContractAttachment`](CallContractAttachment.md)
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:34
+[models/transactions/attachments/contracts/callContractAttachment.ts:34](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L34)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-models/transactions/attachments/contracts/callContractAttachment.ts:47
+[models/transactions/attachments/contracts/callContractAttachment.ts:48](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/callContractAttachment.ts#L48)

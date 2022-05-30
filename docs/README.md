@@ -12,8 +12,19 @@ idena-sdk-js
 
 ### Classes
 
+- [BcnProvider](classes/BcnProvider.md)
 - [CallContractAttachment](classes/CallContractAttachment.md)
+- [ContractProvider](classes/ContractProvider.md)
 - [DeployContractAttachment](classes/DeployContractAttachment.md)
+- [IdenaProvider](classes/IdenaProvider.md)
+- [JsonBalance](classes/JsonBalance.md)
+- [JsonBlock](classes/JsonBlock.md)
+- [JsonEpoch](classes/JsonEpoch.md)
+- [JsonIdentity](classes/JsonIdentity.md)
+- [JsonIterateMap](classes/JsonIterateMap.md)
+- [JsonIterateMapItem](classes/JsonIterateMapItem.md)
+- [JsonReceipt](classes/JsonReceipt.md)
+- [JsonTransaction](classes/JsonTransaction.md)
 - [TerminateContractAttachment](classes/TerminateContractAttachment.md)
 - [Transaction](classes/Transaction.md)
 
@@ -31,6 +42,9 @@ idena-sdk-js
 - [argumentToBytes](README.md#argumenttobytes)
 - [argumentsFromBytes](README.md#argumentsfrombytes)
 - [argumentsToBytes](README.md#argumentstobytes)
+- [calculateGasCost](README.md#calculategascost)
+- [dnaToFloatString](README.md#dnatofloatstring)
+- [floatStringToDna](README.md#floatstringtodna)
 - [hexToUint8Array](README.md#hextouint8array)
 - [privateKeyToAddress](README.md#privatekeytoaddress)
 - [privateKeyToPublicKey](README.md#privatekeytopublickey)
@@ -48,7 +62,7 @@ idena-sdk-js
 
 #### Defined in
 
-utils.ts:1
+[utils.ts:6](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L6)
 
 ## Functions
 
@@ -70,7 +84,7 @@ utils.ts:1
 
 #### Defined in
 
-models/transactions/attachments/contracts/utils.ts:8
+[models/transactions/attachments/contracts/utils.ts:13](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L13)
 
 ___
 
@@ -90,7 +104,7 @@ ___
 
 #### Defined in
 
-models/transactions/attachments/contracts/utils.ts:104
+[models/transactions/attachments/contracts/utils.ts:106](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L106)
 
 ___
 
@@ -111,7 +125,7 @@ ___
 
 #### Defined in
 
-models/transactions/attachments/contracts/utils.ts:95
+[models/transactions/attachments/contracts/utils.ts:97](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L97)
 
 ___
 
@@ -131,7 +145,68 @@ ___
 
 #### Defined in
 
-models/transactions/attachments/contracts/utils.ts:161
+[models/transactions/attachments/contracts/utils.ts:160](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L160)
+
+___
+
+### calculateGasCost
+
+▸ **calculateGasCost**(`feePerGas`, `gas`): `string`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `feePerGas` | `string` \| `BN` |
+| `gas` | `number` |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[utils.ts:54](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L54)
+
+___
+
+### dnaToFloatString
+
+▸ **dnaToFloatString**(`value`): `string`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `value` | `string` \| `BN` |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[utils.ts:49](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L49)
+
+___
+
+### floatStringToDna
+
+▸ **floatStringToDna**(`value`): `BN`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `value` | `string` |
+
+#### Returns
+
+`BN`
+
+#### Defined in
+
+[utils.ts:44](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L44)
 
 ___
 
@@ -151,7 +226,7 @@ ___
 
 #### Defined in
 
-utils.ts:14
+[utils.ts:19](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L19)
 
 ___
 
@@ -172,7 +247,7 @@ ___
 
 #### Defined in
 
-crypto.ts:27
+[crypto.ts:27](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L27)
 
 ___
 
@@ -193,7 +268,7 @@ ___
 
 #### Defined in
 
-crypto.ts:9
+[crypto.ts:9](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L9)
 
 ___
 
@@ -214,7 +289,7 @@ ___
 
 #### Defined in
 
-crypto.ts:17
+[crypto.ts:17](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L17)
 
 ___
 
@@ -236,7 +311,7 @@ ___
 
 #### Defined in
 
-crypto.ts:40
+[crypto.ts:40](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L40)
 
 ___
 
@@ -257,7 +332,7 @@ ___
 
 #### Defined in
 
-crypto.ts:56
+[crypto.ts:56](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L56)
 
 ___
 
@@ -277,7 +352,7 @@ ___
 
 #### Defined in
 
-utils.ts:7
+[utils.ts:12](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L12)
 
 ___
 
@@ -290,7 +365,7 @@ ___
 | Name | Type | Default value |
 | :------ | :------ | :------ |
 | `byteArray` | `Uint8Array` \| `number`[] | `undefined` |
-| `withPrefix` | `boolean` | `false` |
+| `withPrefix` | `boolean` | `true` |
 
 #### Returns
 
@@ -298,4 +373,4 @@ ___
 
 #### Defined in
 
-utils.ts:27
+[utils.ts:32](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L32)

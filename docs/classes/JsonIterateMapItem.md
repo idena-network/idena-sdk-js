@@ -1,0 +1,43 @@
+[idena-sdk-js](../README.md) / JsonIterateMapItem
+
+# Class: JsonIterateMapItem
+
+## Table of contents
+
+### Constructors
+
+- [constructor](JsonIterateMapItem.md#constructor)
+
+### Properties
+
+- [key](JsonIterateMapItem.md#key)
+- [value](JsonIterateMapItem.md#value)
+
+## Constructors
+
+### constructor
+
+• **new JsonIterateMapItem**(`key`, `value`)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `value` | `string` |
+
+#### Defined in
+
+[models/json/index.ts:118](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/json/index.ts#L118)
+
+## Properties
+
+### key
+
+• **key**: `string`
+
+___
+
+### value
+
+• **value**: `string`

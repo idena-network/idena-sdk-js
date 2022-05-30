@@ -63,6 +63,7 @@ export declare class Transaction {
     get signature(): Uint8Array | null;
     get hash(): string;
     get sender(): string | null;
+    get gas(): number;
     static fromHex(hex: string): Transaction;
     static fromBytes(bytes: Uint8Array): Transaction;
     fromHex(hex: string): Transaction;

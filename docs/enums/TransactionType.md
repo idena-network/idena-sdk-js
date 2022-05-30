@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[models/transactions/transaction.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L11)
+[models/transactions/transaction.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L11)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:22](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L22)
+[models/transactions/transaction.ts:22](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L22)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:26](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L26)
+[models/transactions/transaction.ts:26](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L26)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:21](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L21)
+[models/transactions/transaction.ts:21](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L21)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:23](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L23)
+[models/transactions/transaction.ts:23](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L23)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:28](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L28)
+[models/transactions/transaction.ts:28](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L28)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:24](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L24)
+[models/transactions/transaction.ts:24](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L24)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:25](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L25)
+[models/transactions/transaction.ts:25](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L25)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:18](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L18)
+[models/transactions/transaction.ts:18](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L18)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:12](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L12)
+[models/transactions/transaction.ts:12](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L12)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:30](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L30)
+[models/transactions/transaction.ts:30](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L30)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:20](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L20)
+[models/transactions/transaction.ts:20](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L20)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:13](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L13)
+[models/transactions/transaction.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L13)
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:19](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L19)
+[models/transactions/transaction.ts:19](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L19)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:10](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L10)
+[models/transactions/transaction.ts:10](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L10)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:31](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L31)
+[models/transactions/transaction.ts:31](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L31)
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:15](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L15)
+[models/transactions/transaction.ts:15](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L15)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:14](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L14)
+[models/transactions/transaction.ts:14](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L14)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:17](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L17)
+[models/transactions/transaction.ts:17](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L17)
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:16](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L16)
+[models/transactions/transaction.ts:16](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L16)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:27](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L27)
+[models/transactions/transaction.ts:27](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L27)
 
 ___
 
@@ -247,4 +247,4 @@ ___
 
 #### Defined in
 
-[models/transactions/transaction.ts:29](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/transaction.ts#L29)
+[models/transactions/transaction.ts:29](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/transaction.ts#L29)

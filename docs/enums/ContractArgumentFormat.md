@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:16](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L16)
+[models/transactions/attachments/contracts/types.ts:16](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L16)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L11)
+[models/transactions/attachments/contracts/types.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L11)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:10](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L10)
+[models/transactions/attachments/contracts/types.ts:10](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L10)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:18](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L18)
+[models/transactions/attachments/contracts/types.ts:18](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L18)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:17](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L17)
+[models/transactions/attachments/contracts/types.ts:17](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L17)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:14](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L14)
+[models/transactions/attachments/contracts/types.ts:14](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L14)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:12](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L12)
+[models/transactions/attachments/contracts/types.ts:12](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L12)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:15](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L15)
+[models/transactions/attachments/contracts/types.ts:15](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L15)
 
 ___
 
@@ -104,4 +104,4 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/types.ts:13](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/types.ts#L13)
+[models/transactions/attachments/contracts/types.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/types.ts#L13)

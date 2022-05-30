@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[models/json/index.ts:118](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/json/index.ts#L118)
+[models/json/index.ts:118](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L118)
 
 ## Properties
 

@@ -50,7 +50,7 @@ BaseProvider.constructor
 
 #### Defined in
 
-[providers/bcnProvider.ts:13](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L13)
+[providers/bcnProvider.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L13)
 
 ## Properties
 
@@ -64,7 +64,7 @@ BaseProvider.\_httpProvider
 
 #### Defined in
 
-[providers/provider.ts:5](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/provider.ts#L5)
+[providers/provider.ts:5](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L5)
 
 ## Methods
 
@@ -84,7 +84,7 @@ BaseProvider.\_httpProvider
 
 #### Defined in
 
-[providers/bcnProvider.ts:70](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L70)
+[providers/bcnProvider.ts:70](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L70)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:61](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L61)
+[providers/bcnProvider.ts:61](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L61)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:17](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L17)
+[providers/bcnProvider.ts:17](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L17)
 
 ___
 
@@ -151,7 +151,7 @@ BaseProvider.doRequest
 
 #### Defined in
 
-[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/provider.ts#L11)
+[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L11)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:50](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L50)
+[providers/bcnProvider.ts:50](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L50)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:106](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L106)
+[providers/bcnProvider.ts:106](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L106)
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:79](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L79)
+[providers/bcnProvider.ts:79](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L79)
 
 ___
 
@@ -219,7 +219,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:97](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L97)
+[providers/bcnProvider.ts:97](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L97)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:41](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L41)
+[providers/bcnProvider.ts:41](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L41)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:88](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L88)
+[providers/bcnProvider.ts:88](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L88)
 
 ___
 
@@ -280,4 +280,4 @@ ___
 
 #### Defined in
 
-[providers/bcnProvider.ts:9](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/providers/bcnProvider.ts#L9)
+[providers/bcnProvider.ts:9](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L9)

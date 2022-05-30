@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:8](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L8)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:8](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L8)
 
 ## Properties
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:6](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L6)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:6](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L6)
 
 ## Accessors
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:16](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L16)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:16](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L16)
 
 • `set` **args**(`args`): `void`
 
@@ -77,7 +77,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:12](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L12)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:12](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L12)
 
 ## Methods
 
@@ -97,7 +97,7 @@
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:28](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L28)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:28](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L28)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:20](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L20)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:20](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L20)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:24](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L24)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:24](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L24)
 
 ___
 
@@ -151,4 +151,4 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:36](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L36)
+[models/transactions/attachments/contracts/terminateContractAttachment.ts:36](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L36)

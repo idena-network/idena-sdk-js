@@ -16,6 +16,7 @@ idena-sdk-js
 - [CallContractAttachment](classes/CallContractAttachment.md)
 - [ContractProvider](classes/ContractProvider.md)
 - [DeployContractAttachment](classes/DeployContractAttachment.md)
+- [DnaProvider](classes/DnaProvider.md)
 - [IdenaProvider](classes/IdenaProvider.md)
 - [JsonBalance](classes/JsonBalance.md)
 - [JsonBlock](classes/JsonBlock.md)
@@ -62,7 +63,7 @@ idena-sdk-js
 
 #### Defined in
 
-[utils.ts:6](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L6)
+[utils.ts:6](https://github.com/idena-network/idena-sdk-js/blob/master/src/utils.ts#L6)
 
 ## Functions
 
@@ -84,7 +85,7 @@ idena-sdk-js
 
 #### Defined in
 
-[models/transactions/attachments/contracts/utils.ts:13](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L13)
+[models/transactions/attachments/contracts/utils.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/utils.ts#L13)
 
 ___
 
@@ -104,7 +105,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/utils.ts:106](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L106)
+[models/transactions/attachments/contracts/utils.ts:106](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/utils.ts#L106)
 
 ___
 
@@ -125,7 +126,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/utils.ts:97](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L97)
+[models/transactions/attachments/contracts/utils.ts:97](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/utils.ts#L97)
 
 ___
 
@@ -145,7 +146,7 @@ ___
 
 #### Defined in
 
-[models/transactions/attachments/contracts/utils.ts:160](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/transactions/attachments/contracts/utils.ts#L160)
+[models/transactions/attachments/contracts/utils.ts:160](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/utils.ts#L160)
 
 ___
 
@@ -166,7 +167,7 @@ ___
 
 #### Defined in
 
-[utils.ts:54](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L54)
+[utils.ts:54](https://github.com/idena-network/idena-sdk-js/blob/master/src/utils.ts#L54)
 
 ___
 
@@ -186,7 +187,7 @@ ___
 
 #### Defined in
 
-[utils.ts:49](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L49)
+[utils.ts:49](https://github.com/idena-network/idena-sdk-js/blob/master/src/utils.ts#L49)
 
 ___
 
@@ -206,7 +207,7 @@ ___
 
 #### Defined in
 
-[utils.ts:44](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L44)
+[utils.ts:44](https://github.com/idena-network/idena-sdk-js/blob/master/src/utils.ts#L44)
 
 ___
 
@@ -226,7 +227,7 @@ ___
 
 #### Defined in
 
-[utils.ts:19](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L19)
+[utils.ts:19](https://github.com/idena-network/idena-sdk-js/blob/master/src/utils.ts#L19)
 
 ___
 
@@ -247,7 +248,7 @@ ___
 
 #### Defined in
 
-[crypto.ts:27](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L27)
+[crypto.ts:27](https://github.com/idena-network/idena-sdk-js/blob/master/src/crypto.ts#L27)
 
 ___
 
@@ -268,7 +269,7 @@ ___
 
 #### Defined in
 
-[crypto.ts:9](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L9)
+[crypto.ts:9](https://github.com/idena-network/idena-sdk-js/blob/master/src/crypto.ts#L9)
 
 ___
 
@@ -289,7 +290,7 @@ ___
 
 #### Defined in
 
-[crypto.ts:17](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L17)
+[crypto.ts:17](https://github.com/idena-network/idena-sdk-js/blob/master/src/crypto.ts#L17)
 
 ___
 
@@ -311,7 +312,7 @@ ___
 
 #### Defined in
 
-[crypto.ts:40](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L40)
+[crypto.ts:40](https://github.com/idena-network/idena-sdk-js/blob/master/src/crypto.ts#L40)
 
 ___
 
@@ -332,7 +333,7 @@ ___
 
 #### Defined in
 
-[crypto.ts:56](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/crypto.ts#L56)
+[crypto.ts:56](https://github.com/idena-network/idena-sdk-js/blob/master/src/crypto.ts#L56)
 
 ___
 
@@ -352,7 +353,7 @@ ___
 
 #### Defined in
 
-[utils.ts:12](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L12)
+[utils.ts:12](https://github.com/idena-network/idena-sdk-js/blob/master/src/utils.ts#L12)
 
 ___
 
@@ -373,4 +374,4 @@ ___
 
 #### Defined in
 
-[utils.ts:32](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/utils.ts#L32)
+[utils.ts:32](https://github.com/idena-network/idena-sdk-js/blob/master/src/utils.ts#L32)

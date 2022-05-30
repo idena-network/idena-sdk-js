@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[models/json/index.ts:49](https://github.com/idena-network/idena-sdk-js/blob/f054b38/src/models/json/index.ts#L49)
+[models/json/index.ts:49](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L49)
 
 ## Properties
 

@@ -31,7 +31,13 @@ jobs:
           git config --local user.name 'ridenaio'
           git config --local user.email 'r@idena.io'
 
-      - name: bump version
+      - name: Install packages
+        run: npm ci
+
+      - name: Update docs
+        run: npm run update-docs
+
+      - name: Bump version
         run: npm version ${{ github.event.inputs.version }}
 
       - name: Push changes

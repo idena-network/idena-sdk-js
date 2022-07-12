@@ -26,18 +26,22 @@
 | `items` | [`JsonIterateMapItem`](JsonIterateMapItem.md)[] |
 | `continuationToken` | `string` |
 
-#### Defined in
-
-[models/json/index.ts:121](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L121)
-
 ## Properties
 
 ### continuationToken
 
 • **continuationToken**: `string`
 
+#### Defined in
+
+[models/json/index.ts:123](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L123)
+
 ___
 
 ### items
 
 • **items**: [`JsonIterateMapItem`](JsonIterateMapItem.md)[]
+
+#### Defined in
+
+[models/json/index.ts:122](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L122)

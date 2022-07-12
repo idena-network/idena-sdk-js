@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- `BaseProvider`
+- [`BaseProvider`](internal_.BaseProvider.md)
 
   ↳ **`ContractProvider`**
 
@@ -41,11 +41,7 @@
 
 #### Overrides
 
-BaseProvider.constructor
-
-#### Defined in
-
-[providers/contractProvider.ts:15](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L15)
+[BaseProvider](internal_.BaseProvider.md).[constructor](internal_.BaseProvider.md#constructor)
 
 ## Properties
 
@@ -55,7 +51,7 @@ BaseProvider.constructor
 
 #### Inherited from
 
-BaseProvider.\_httpProvider
+[BaseProvider](internal_.BaseProvider.md).[_httpProvider](internal_.BaseProvider.md#_httpprovider)
 
 #### Defined in
 
@@ -82,11 +78,7 @@ BaseProvider.\_httpProvider
 
 #### Inherited from
 
-BaseProvider.doRequest
-
-#### Defined in
-
-[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L11)
+[BaseProvider](internal_.BaseProvider.md).[doRequest](internal_.BaseProvider.md#dorequest)
 
 ___
 
@@ -109,10 +101,6 @@ ___
 
 `Promise`<[`JsonIterateMap`](JsonIterateMap.md)\>
 
-#### Defined in
-
-[providers/contractProvider.ts:60](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L60)
-
 ___
 
 ### readData
@@ -130,10 +118,6 @@ ___
 #### Returns
 
 `Promise`<`string`\>
-
-#### Defined in
-
-[providers/contractProvider.ts:19](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L19)
 
 ___
 
@@ -154,10 +138,6 @@ ___
 
 `Promise`<`string`\>
 
-#### Defined in
-
-[providers/contractProvider.ts:46](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L46)
-
 ___
 
 ### readonlyCall
@@ -177,10 +157,6 @@ ___
 
 `Promise`<`string`\>
 
-#### Defined in
-
-[providers/contractProvider.ts:32](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L32)
-
 ___
 
 ### create
@@ -197,7 +173,3 @@ ___
 #### Returns
 
 [`ContractProvider`](ContractProvider.md)
-
-#### Defined in
-
-[providers/contractProvider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/contractProvider.ts#L11)

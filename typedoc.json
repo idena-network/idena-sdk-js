@@ -3,5 +3,6 @@
   "name": "idena-sdk-js",
   "theme": "markdown",
   "readme": "none",
-  "tsconfig": "./tsconfig.bundle.json"
+  "tsconfig": "./tsconfig.bundle.json",
+  "excludeExternals": true
 }

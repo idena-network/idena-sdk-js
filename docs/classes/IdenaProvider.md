@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- `BaseProvider`
+- [`BaseProvider`](internal_.BaseProvider.md)
 
   ↳ **`IdenaProvider`**
 
@@ -46,11 +46,7 @@
 
 #### Overrides
 
-BaseProvider.constructor
-
-#### Defined in
-
-[providers/idenaProvider.ts:29](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L29)
+[BaseProvider](internal_.BaseProvider.md).[constructor](internal_.BaseProvider.md#constructor)
 
 ## Properties
 
@@ -90,7 +86,7 @@ ___
 
 #### Inherited from
 
-BaseProvider.\_httpProvider
+[BaseProvider](internal_.BaseProvider.md).[_httpProvider](internal_.BaseProvider.md#_httpprovider)
 
 #### Defined in
 
@@ -106,10 +102,6 @@ BaseProvider.\_httpProvider
 
 [`BcnProvider`](BcnProvider.md)
 
-#### Defined in
-
-[providers/idenaProvider.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L13)
-
 ___
 
 ### Contract
@@ -120,10 +112,6 @@ ___
 
 [`ContractProvider`](ContractProvider.md)
 
-#### Defined in
-
-[providers/idenaProvider.ts:17](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L17)
-
 ___
 
 ### Dna
@@ -133,10 +121,6 @@ ___
 #### Returns
 
 [`DnaProvider`](DnaProvider.md)
-
-#### Defined in
-
-[providers/idenaProvider.ts:21](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L21)
 
 ## Methods
 
@@ -159,11 +143,7 @@ ___
 
 #### Inherited from
 
-BaseProvider.doRequest
-
-#### Defined in
-
-[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L11)
+[BaseProvider](internal_.BaseProvider.md).[doRequest](internal_.BaseProvider.md#dorequest)
 
 ___
 
@@ -181,7 +161,3 @@ ___
 #### Returns
 
 [`IdenaProvider`](IdenaProvider.md)
-
-#### Defined in
-
-[providers/idenaProvider.ts:25](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/idenaProvider.ts#L25)

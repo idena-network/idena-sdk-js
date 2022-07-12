@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- `BaseProvider`
+- [`BaseProvider`](internal_.BaseProvider.md)
 
   ↳ **`DnaProvider`**
 
@@ -40,11 +40,7 @@
 
 #### Overrides
 
-BaseProvider.constructor
-
-#### Defined in
-
-[providers/dnaProvider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/dnaProvider.ts#L11)
+[BaseProvider](internal_.BaseProvider.md).[constructor](internal_.BaseProvider.md#constructor)
 
 ## Properties
 
@@ -54,7 +50,7 @@ BaseProvider.constructor
 
 #### Inherited from
 
-BaseProvider.\_httpProvider
+[BaseProvider](internal_.BaseProvider.md).[_httpProvider](internal_.BaseProvider.md#_httpprovider)
 
 #### Defined in
 
@@ -75,10 +71,6 @@ BaseProvider.\_httpProvider
 #### Returns
 
 `Promise`<[`JsonBalance`](JsonBalance.md)\>
-
-#### Defined in
-
-[providers/dnaProvider.ts:15](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/dnaProvider.ts#L15)
 
 ___
 
@@ -101,11 +93,7 @@ ___
 
 #### Inherited from
 
-BaseProvider.doRequest
-
-#### Defined in
-
-[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L11)
+[BaseProvider](internal_.BaseProvider.md).[doRequest](internal_.BaseProvider.md#dorequest)
 
 ___
 
@@ -116,10 +104,6 @@ ___
 #### Returns
 
 `Promise`<[`JsonEpoch`](JsonEpoch.md)\>
-
-#### Defined in
-
-[providers/dnaProvider.ts:33](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/dnaProvider.ts#L33)
 
 ___
 
@@ -137,10 +121,6 @@ ___
 
 `Promise`<[`JsonIdentity`](JsonIdentity.md)\>
 
-#### Defined in
-
-[providers/dnaProvider.ts:24](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/dnaProvider.ts#L24)
-
 ___
 
 ### create
@@ -157,7 +137,3 @@ ___
 #### Returns
 
 [`DnaProvider`](DnaProvider.md)
-
-#### Defined in
-
-[providers/dnaProvider.ts:7](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/dnaProvider.ts#L7)

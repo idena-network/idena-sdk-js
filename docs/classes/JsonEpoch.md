@@ -30,15 +30,15 @@
 | `nextValidation` | `string` |
 | `currentPeriod` | `string` |
 
-#### Defined in
-
-[models/json/index.ts:109](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L109)
-
 ## Properties
 
 ### currentPeriod
 
 • **currentPeriod**: `string`
+
+#### Defined in
+
+[models/json/index.ts:113](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L113)
 
 ___
 
@@ -46,14 +46,26 @@ ___
 
 • **epoch**: `number`
 
+#### Defined in
+
+[models/json/index.ts:111](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L111)
+
 ___
 
 ### nextValidation
 
 • **nextValidation**: `string`
 
+#### Defined in
+
+[models/json/index.ts:112](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L112)
+
 ___
 
 ### startBlock
 
 • **startBlock**: `number`
+
+#### Defined in
+
+[models/json/index.ts:110](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L110)

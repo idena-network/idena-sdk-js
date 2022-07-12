@@ -35,10 +35,6 @@
 | :------ | :------ |
 | `init?` | `Partial`<{ `args`: `Uint8Array`[]  }\> |
 
-#### Defined in
-
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:8](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L8)
-
 ## Properties
 
 ### \_args
@@ -59,10 +55,6 @@
 
 `Uint8Array`[]
 
-#### Defined in
-
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:16](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L16)
-
 • `set` **args**(`args`): `void`
 
 #### Parameters
@@ -74,10 +66,6 @@
 #### Returns
 
 `void`
-
-#### Defined in
-
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:12](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L12)
 
 ## Methods
 
@@ -95,10 +83,6 @@
 
 [`TerminateContractAttachment`](TerminateContractAttachment.md)
 
-#### Defined in
-
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:28](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L28)
-
 ___
 
 ### getArgs
@@ -114,10 +98,6 @@ ___
 #### Returns
 
 [`ContractArgument`](../interfaces/ContractArgument.md)[]
-
-#### Defined in
-
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:20](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L20)
 
 ___
 
@@ -135,10 +115,6 @@ ___
 
 `void`
 
-#### Defined in
-
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:24](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L24)
-
 ___
 
 ### toBytes
@@ -148,7 +124,3 @@ ___
 #### Returns
 
 `Uint8Array`
-
-#### Defined in
-
-[models/transactions/attachments/contracts/terminateContractAttachment.ts:36](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/transactions/attachments/contracts/terminateContractAttachment.ts#L36)

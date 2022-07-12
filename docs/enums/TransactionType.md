@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [ActivationTx](TransactionType.md#activationtx)
 - [BurnTx](TransactionType.md#burntx)
@@ -29,11 +29,11 @@
 - [TerminateContractTx](TransactionType.md#terminatecontracttx)
 - [UndelegateTx](TransactionType.md#undelegatetx)
 
-## Enumeration members
+## Enumeration Members
 
 ### ActivationTx
 
-• **ActivationTx** = `1`
+• **ActivationTx** = ``1``
 
 #### Defined in
 
@@ -43,7 +43,7 @@ ___
 
 ### BurnTx
 
-• **BurnTx** = `12`
+• **BurnTx** = ``12``
 
 #### Defined in
 
@@ -53,7 +53,7 @@ ___
 
 ### CallContractTx
 
-• **CallContractTx** = `16`
+• **CallContractTx** = ``16``
 
 #### Defined in
 
@@ -63,7 +63,7 @@ ___
 
 ### ChangeGodAddressTx
 
-• **ChangeGodAddressTx** = `11`
+• **ChangeGodAddressTx** = ``11``
 
 #### Defined in
 
@@ -73,7 +73,7 @@ ___
 
 ### ChangeProfileTx
 
-• **ChangeProfileTx** = `13`
+• **ChangeProfileTx** = ``13``
 
 #### Defined in
 
@@ -83,7 +83,7 @@ ___
 
 ### DelegateTx
 
-• **DelegateTx** = `18`
+• **DelegateTx** = ``18``
 
 #### Defined in
 
@@ -93,7 +93,7 @@ ___
 
 ### DeleteFlipTx
 
-• **DeleteFlipTx** = `14`
+• **DeleteFlipTx** = ``14``
 
 #### Defined in
 
@@ -103,7 +103,7 @@ ___
 
 ### DeployContractTx
 
-• **DeployContractTx** = `15`
+• **DeployContractTx** = ``15``
 
 #### Defined in
 
@@ -113,7 +113,7 @@ ___
 
 ### EvidenceTx
 
-• **EvidenceTx** = `8`
+• **EvidenceTx** = ``8``
 
 #### Defined in
 
@@ -123,7 +123,7 @@ ___
 
 ### InviteTx
 
-• **InviteTx** = `2`
+• **InviteTx** = ``2``
 
 #### Defined in
 
@@ -133,7 +133,7 @@ ___
 
 ### KillDelegatorTx
 
-• **KillDelegatorTx** = `20`
+• **KillDelegatorTx** = ``20``
 
 #### Defined in
 
@@ -143,7 +143,7 @@ ___
 
 ### KillInviteeTx
 
-• **KillInviteeTx** = `10`
+• **KillInviteeTx** = ``10``
 
 #### Defined in
 
@@ -153,7 +153,7 @@ ___
 
 ### KillTx
 
-• **KillTx** = `3`
+• **KillTx** = ``3``
 
 #### Defined in
 
@@ -163,7 +163,7 @@ ___
 
 ### OnlineStatusTx
 
-• **OnlineStatusTx** = `9`
+• **OnlineStatusTx** = ``9``
 
 #### Defined in
 
@@ -173,7 +173,7 @@ ___
 
 ### SendTx
 
-• **SendTx** = `0`
+• **SendTx** = ``0``
 
 #### Defined in
 
@@ -183,7 +183,7 @@ ___
 
 ### StoreToIpfsTx
 
-• **StoreToIpfsTx** = `21`
+• **StoreToIpfsTx** = ``21``
 
 #### Defined in
 
@@ -193,7 +193,7 @@ ___
 
 ### SubmitAnswersHashTx
 
-• **SubmitAnswersHashTx** = `5`
+• **SubmitAnswersHashTx** = ``5``
 
 #### Defined in
 
@@ -203,7 +203,7 @@ ___
 
 ### SubmitFlipTx
 
-• **SubmitFlipTx** = `4`
+• **SubmitFlipTx** = ``4``
 
 #### Defined in
 
@@ -213,7 +213,7 @@ ___
 
 ### SubmitLongAnswersTx
 
-• **SubmitLongAnswersTx** = `7`
+• **SubmitLongAnswersTx** = ``7``
 
 #### Defined in
 
@@ -223,7 +223,7 @@ ___
 
 ### SubmitShortAnswersTx
 
-• **SubmitShortAnswersTx** = `6`
+• **SubmitShortAnswersTx** = ``6``
 
 #### Defined in
 
@@ -233,7 +233,7 @@ ___
 
 ### TerminateContractTx
 
-• **TerminateContractTx** = `17`
+• **TerminateContractTx** = ``17``
 
 #### Defined in
 
@@ -243,7 +243,7 @@ ___
 
 ### UndelegateTx
 
-• **UndelegateTx** = `19`
+• **UndelegateTx** = ``19``
 
 #### Defined in
 

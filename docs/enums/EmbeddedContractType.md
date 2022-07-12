@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [MultisigContract](EmbeddedContractType.md#multisigcontract)
 - [OracleLockContract](EmbeddedContractType.md#oraclelockcontract)
@@ -12,11 +12,11 @@
 - [RefundableOracleLockContract](EmbeddedContractType.md#refundableoraclelockcontract)
 - [TimeLockContract](EmbeddedContractType.md#timelockcontract)
 
-## Enumeration members
+## Enumeration Members
 
 ### MultisigContract
 
-• **MultisigContract** = `5`
+• **MultisigContract** = ``5``
 
 #### Defined in
 
@@ -26,7 +26,7 @@ ___
 
 ### OracleLockContract
 
-• **OracleLockContract** = `3`
+• **OracleLockContract** = ``3``
 
 #### Defined in
 
@@ -36,7 +36,7 @@ ___
 
 ### OracleVotingContract
 
-• **OracleVotingContract** = `2`
+• **OracleVotingContract** = ``2``
 
 #### Defined in
 
@@ -46,7 +46,7 @@ ___
 
 ### RefundableOracleLockContract
 
-• **RefundableOracleLockContract** = `4`
+• **RefundableOracleLockContract** = ``4``
 
 #### Defined in
 
@@ -56,7 +56,7 @@ ___
 
 ### TimeLockContract
 
-• **TimeLockContract** = `1`
+• **TimeLockContract** = ``1``
 
 #### Defined in
 

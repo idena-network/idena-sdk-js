@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Bigint](ContractArgumentFormat.md#bigint)
 - [Byte](ContractArgumentFormat.md#byte)
@@ -16,11 +16,11 @@
 - [String](ContractArgumentFormat.md#string)
 - [Uint64](ContractArgumentFormat.md#uint64)
 
-## Enumeration members
+## Enumeration Members
 
 ### Bigint
 
-• **Bigint** = `"bigint"`
+• **Bigint** = ``"bigint"``
 
 #### Defined in
 
@@ -30,7 +30,7 @@ ___
 
 ### Byte
 
-• **Byte** = `"byte"`
+• **Byte** = ``"byte"``
 
 #### Defined in
 
@@ -40,7 +40,7 @@ ___
 
 ### Default
 
-• **Default** = `"default"`
+• **Default** = ``"default"``
 
 #### Defined in
 
@@ -50,7 +50,7 @@ ___
 
 ### Dna
 
-• **Dna** = `"dna"`
+• **Dna** = ``"dna"``
 
 #### Defined in
 
@@ -60,7 +60,7 @@ ___
 
 ### Hex
 
-• **Hex** = `"hex"`
+• **Hex** = ``"hex"``
 
 #### Defined in
 
@@ -70,7 +70,7 @@ ___
 
 ### Int64
 
-• **Int64** = `"int64"`
+• **Int64** = ``"int64"``
 
 #### Defined in
 
@@ -80,7 +80,7 @@ ___
 
 ### Int8
 
-• **Int8** = `"int8"`
+• **Int8** = ``"int8"``
 
 #### Defined in
 
@@ -90,7 +90,7 @@ ___
 
 ### String
 
-• **String** = `"string"`
+• **String** = ``"string"``
 
 #### Defined in
 
@@ -100,7 +100,7 @@ ___
 
 ### Uint64
 
-• **Uint64** = `"uint64"`
+• **Uint64** = ``"uint64"``
 
 #### Defined in
 

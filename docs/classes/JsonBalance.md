@@ -30,15 +30,15 @@
 | `nonce` | `number` |
 | `mempoolNonce` | `number` |
 
-#### Defined in
-
-[models/json/index.ts:49](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L49)
-
 ## Properties
 
 ### balance
 
 • **balance**: `string`
+
+#### Defined in
+
+[models/json/index.ts:51](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L51)
 
 ___
 
@@ -46,14 +46,26 @@ ___
 
 • **mempoolNonce**: `number`
 
+#### Defined in
+
+[models/json/index.ts:53](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L53)
+
 ___
 
 ### nonce
 
 • **nonce**: `number`
 
+#### Defined in
+
+[models/json/index.ts:52](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L52)
+
 ___
 
 ### stake
 
 • **stake**: `string`
+
+#### Defined in
+
+[models/json/index.ts:50](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L50)

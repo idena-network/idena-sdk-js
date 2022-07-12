@@ -48,15 +48,15 @@
 | `usedFee` | `string` |
 | `timestamp` | `number` |
 
-#### Defined in
-
-[models/json/index.ts:18](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L18)
-
 ## Properties
 
 ### amount
 
 • **amount**: `string`
+
+#### Defined in
+
+[models/json/index.ts:23](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L23)
 
 ___
 
@@ -64,11 +64,19 @@ ___
 
 • **blockHash**: `string`
 
+#### Defined in
+
+[models/json/index.ts:29](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L29)
+
 ___
 
 ### epoch
 
 • **epoch**: `number`
+
+#### Defined in
+
+[models/json/index.ts:27](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L27)
 
 ___
 
@@ -76,11 +84,19 @@ ___
 
 • **from**: `string`
 
+#### Defined in
+
+[models/json/index.ts:21](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L21)
+
 ___
 
 ### hash
 
 • **hash**: `string`
+
+#### Defined in
+
+[models/json/index.ts:19](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L19)
 
 ___
 
@@ -88,11 +104,19 @@ ___
 
 • **maxFee**: `string`
 
+#### Defined in
+
+[models/json/index.ts:25](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L25)
+
 ___
 
 ### nonce
 
 • **nonce**: `number`
+
+#### Defined in
+
+[models/json/index.ts:26](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L26)
 
 ___
 
@@ -100,11 +124,19 @@ ___
 
 • **payload**: `string`
 
+#### Defined in
+
+[models/json/index.ts:28](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L28)
+
 ___
 
 ### timestamp
 
 • **timestamp**: `number`
+
+#### Defined in
+
+[models/json/index.ts:31](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L31)
 
 ___
 
@@ -112,11 +144,19 @@ ___
 
 • **tips**: `string`
 
+#### Defined in
+
+[models/json/index.ts:24](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L24)
+
 ___
 
 ### to
 
 • **to**: `string`
+
+#### Defined in
+
+[models/json/index.ts:22](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L22)
 
 ___
 
@@ -124,8 +164,16 @@ ___
 
 • **type**: `string`
 
+#### Defined in
+
+[models/json/index.ts:20](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L20)
+
 ___
 
 ### usedFee
 
 • **usedFee**: `string`
+
+#### Defined in
+
+[models/json/index.ts:30](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L30)

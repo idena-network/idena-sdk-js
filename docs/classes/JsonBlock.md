@@ -44,15 +44,15 @@
 | `isEmpty` | `boolean` |
 | `offlineAddress` | `string` |
 
-#### Defined in
-
-[models/json/index.ts:2](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L2)
-
 ## Properties
 
 ### coinbase
 
 • **coinbase**: `string`
+
+#### Defined in
+
+[models/json/index.ts:3](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L3)
 
 ___
 
@@ -60,11 +60,19 @@ ___
 
 • **flags**: `string`[]
 
+#### Defined in
+
+[models/json/index.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L11)
+
 ___
 
 ### hash
 
 • **hash**: `string`
+
+#### Defined in
+
+[models/json/index.ts:4](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L4)
 
 ___
 
@@ -72,11 +80,19 @@ ___
 
 • **height**: `number`
 
+#### Defined in
+
+[models/json/index.ts:6](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L6)
+
 ___
 
 ### identityRoot
 
 • **identityRoot**: `string`
+
+#### Defined in
+
+[models/json/index.ts:8](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L8)
 
 ___
 
@@ -84,11 +100,19 @@ ___
 
 • **ipfsCid**: `string`
 
+#### Defined in
+
+[models/json/index.ts:9](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L9)
+
 ___
 
 ### isEmpty
 
 • **isEmpty**: `boolean`
+
+#### Defined in
+
+[models/json/index.ts:12](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L12)
 
 ___
 
@@ -96,11 +120,19 @@ ___
 
 • **offlineAddress**: `string`
 
+#### Defined in
+
+[models/json/index.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L13)
+
 ___
 
 ### parentHash
 
 • **parentHash**: `string`
+
+#### Defined in
+
+[models/json/index.ts:5](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L5)
 
 ___
 
@@ -108,8 +140,16 @@ ___
 
 • **root**: `string`
 
+#### Defined in
+
+[models/json/index.ts:7](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L7)
+
 ___
 
 ### transactions
 
 • **transactions**: `string`[]
+
+#### Defined in
+
+[models/json/index.ts:10](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L10)

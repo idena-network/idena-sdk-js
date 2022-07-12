@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- `BaseProvider`
+- [`BaseProvider`](internal_.BaseProvider.md)
 
   ↳ **`BcnProvider`**
 
@@ -46,11 +46,7 @@
 
 #### Overrides
 
-BaseProvider.constructor
-
-#### Defined in
-
-[providers/bcnProvider.ts:13](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L13)
+[BaseProvider](internal_.BaseProvider.md).[constructor](internal_.BaseProvider.md#constructor)
 
 ## Properties
 
@@ -60,7 +56,7 @@ BaseProvider.constructor
 
 #### Inherited from
 
-BaseProvider.\_httpProvider
+[BaseProvider](internal_.BaseProvider.md).[_httpProvider](internal_.BaseProvider.md#_httpprovider)
 
 #### Defined in
 
@@ -82,10 +78,6 @@ BaseProvider.\_httpProvider
 
 `Promise`<[`JsonBlock`](JsonBlock.md)\>
 
-#### Defined in
-
-[providers/bcnProvider.ts:70](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L70)
-
 ___
 
 ### blockAt
@@ -102,10 +94,6 @@ ___
 
 `Promise`<[`JsonBlock`](JsonBlock.md)\>
 
-#### Defined in
-
-[providers/bcnProvider.ts:61](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L61)
-
 ___
 
 ### buildTx
@@ -121,10 +109,6 @@ ___
 #### Returns
 
 `Promise`<[`Transaction`](Transaction.md)\>
-
-#### Defined in
-
-[providers/bcnProvider.ts:17](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L17)
 
 ___
 
@@ -147,11 +131,7 @@ ___
 
 #### Inherited from
 
-BaseProvider.doRequest
-
-#### Defined in
-
-[providers/provider.ts:11](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/provider.ts#L11)
+[BaseProvider](internal_.BaseProvider.md).[doRequest](internal_.BaseProvider.md#dorequest)
 
 ___
 
@@ -169,10 +149,6 @@ ___
 
 `Promise`<{ `receipt`: [`JsonReceipt`](JsonReceipt.md) ; `txFee`: `string` ; `txHash`: `string`  }\>
 
-#### Defined in
-
-[providers/bcnProvider.ts:50](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L50)
-
 ___
 
 ### feePerGas
@@ -183,10 +159,6 @@ ___
 
 `Promise`<`string`\>
 
-#### Defined in
-
-[providers/bcnProvider.ts:106](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L106)
-
 ___
 
 ### lastBlock
@@ -196,10 +168,6 @@ ___
 #### Returns
 
 `Promise`<[`JsonBlock`](JsonBlock.md)\>
-
-#### Defined in
-
-[providers/bcnProvider.ts:79](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L79)
 
 ___
 
@@ -217,10 +185,6 @@ ___
 
 `Promise`<[`JsonReceipt`](JsonReceipt.md)\>
 
-#### Defined in
-
-[providers/bcnProvider.ts:97](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L97)
-
 ___
 
 ### sendTx
@@ -236,10 +200,6 @@ ___
 #### Returns
 
 `Promise`<`string`\>
-
-#### Defined in
-
-[providers/bcnProvider.ts:41](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L41)
 
 ___
 
@@ -257,10 +217,6 @@ ___
 
 `Promise`<[`JsonTransaction`](JsonTransaction.md)\>
 
-#### Defined in
-
-[providers/bcnProvider.ts:88](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L88)
-
 ___
 
 ### create
@@ -277,7 +233,3 @@ ___
 #### Returns
 
 [`BcnProvider`](BcnProvider.md)
-
-#### Defined in
-
-[providers/bcnProvider.ts:9](https://github.com/idena-network/idena-sdk-js/blob/master/src/providers/bcnProvider.ts#L9)

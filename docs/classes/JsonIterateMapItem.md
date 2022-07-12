@@ -26,18 +26,22 @@
 | `key` | `string` |
 | `value` | `string` |
 
-#### Defined in
-
-[models/json/index.ts:118](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L118)
-
 ## Properties
 
 ### key
 
 • **key**: `string`
 
+#### Defined in
+
+[models/json/index.ts:118](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L118)
+
 ___
 
 ### value
 
 • **value**: `string`
+
+#### Defined in
+
+[models/json/index.ts:118](https://github.com/idena-network/idena-sdk-js/blob/master/src/models/json/index.ts#L118)

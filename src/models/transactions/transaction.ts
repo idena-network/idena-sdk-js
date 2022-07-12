@@ -96,7 +96,7 @@ export class Transaction {
   }
 
   public get to(): string | null {
-    return this._to ? toHexString(this._to, true) : null;
+    return this._to && this._to.length > 0 ? toHexString(this._to, true) : null;
   }
 
   public set amount(amount: number | string | BN | Uint8Array | null) {
